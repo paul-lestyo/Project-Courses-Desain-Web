@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+</head>
+<body>
+    <center>
+        <h1>Pendaftaran Anggota Perpustakaan UNS</h1>
+        <form action="https://library.uns.ac.id/" target="_blank">
+            <table class="table-form" bgcolor="grey" padding=1 cellpadding=18>
+                <tr>
+                    <td><label for="fname">Nama :</label></td>
+                    <td><input type="text" name="fname" placeholder="contoh nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">NIM:</label></td>
+                    <td><input type="text" name="lname" placeholder="contoh NIM"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" placeholder="contoh@uns.ac.id"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Jenis Kelamin:</label></td>
+                    <td>
+                        <label><input type="radio" name="tipe" value="male" checked>Laki-Laki</label>
+                        <label><input type="radio" name="tipe" value="female">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="birthday">Tanggal lahir:</label></td>
+                    <td><input type="date" name="birthday"></td>
+                </tr>
+                <tr>
+                    <td><label for="tpakun">Jurusan:</label></td>
+                    <td>
+                        <select name="tpakun">
+                            <option value="Trial">PTIK</option>
+                            <option value="Subs">PTM</option>
+                            <option value="Premium">PTB</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat:</label></td>
+                    <td>
+                        <textarea name="alamat" cols="30" rows="3" placeholder="contoh alamat"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan=2 align="center">
+                        <input type="submit" value="Daftar" style="padding: 10px;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
