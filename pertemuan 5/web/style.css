@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffe3fe;
+}
+
+.container {
+    margin: 10px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #440a67, #93329e);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title-name {
+    text-align: center;
+    text-shadow: 1px 1px rgba(73, 73, 73, 0.5);
+}
+
+
+nav {
+    width: 80%;
+    margin: 10px auto;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #440a67, #93329e);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover:not(.active) {
+    color: #440a67;
+    background-color: #b4aee8;
+}
+  
+nav .active {
+    color: #440a67;
+    background-color: #b4aee8;
+}
+
+.siapa-saya {
+    margin: 20px;
+}
+
+.siapa-saya h2 {
+    margin-left: 100px;
+}
+
+.siapa-saya img {
+    border-radius: 50%;
+    width: 20%;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    margin-right: 30px;
+    float: left;
+}
+
+.siapa-saya p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 5px 5px 5px;
+}
+
+.siapa-saya p a{
+    color: indianred;
+}
+
+.maintenance {
+    text-align: center;
+}
