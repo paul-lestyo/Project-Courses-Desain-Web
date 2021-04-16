@@ -28,7 +28,7 @@ body {
 .white {
     width: 100%;
     position: absolute;
-    height: 500px;
+    height: 900px;
     top: 480px;
     z-index: -1;
     background-color: white;
@@ -219,7 +219,7 @@ nav ul li:hover a {
 
  .my-skill .logo-skill .kotak {
     display: inline-block;
-    width: 33%;
+    width: 32%;
     margin-bottom: 100px;
     min-height: 100px;
     max-height: 100px;
