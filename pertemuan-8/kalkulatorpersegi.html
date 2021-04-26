@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <style>
+        #hasil {
+            display: none;
+            margin: 10px;
+            padding: 10px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <form name="dform">
+        <h1>Masukkan angka</h1>
+        <pre>
+            Panjang :
+            <input type="text" name="panjang">
+            Lebar :
+            <input type="text" name="lebar">
+        </pre>
+        <br>
+        <input type="button" value="Hitung" onclick="luas()">
+        <input type="reset" value="Reset">
+    </form>
+
+    <div id="hasil"></div>
+
+    <script>
+        function luas() {
+            let panjang = parseFloat(document.dform.panjang.value);
+            let lebar = parseFloat(document.dform.lebar.value);
+
+            if(isNaN(panjang)) panjang = 0.0;
+            if(isNaN(lebar)) lebar = 0.0;
+
+            let luas = panjang * lebar;
+            document.querySelector("#hasil").innerHTML = luas;
+            document.querySelector("#hasil").style.display = "block";
+
+            // alert("Hasilnya adalah "+ luas);
+        }
+    </script>
+</body>
+</html>
