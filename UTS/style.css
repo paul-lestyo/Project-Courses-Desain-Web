@@ -228,7 +228,7 @@ nav ul li:hover a {
 
 .paralax-beta {
     background-image: url("images/bg-paralax.png");
-    min-height: 1000px;
+    min-height: 10000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
