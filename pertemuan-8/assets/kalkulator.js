@@ -59,6 +59,8 @@ function performCalculation() {
    } else {
        result = parseInt(calculator.firstNumber) - parseInt(calculator.displayNumber)
    }
+ 
+   calculator.displayNumber = result;
 }
 
 const buttons = document.querySelectorAll(".button");
